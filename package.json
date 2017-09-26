@@ -1,0 +1,52 @@
+{
+  "name": "@justeat/f-icons",
+  "description": "Common icons for use in Fozzie projects.",
+  "version": "1.0.0",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/justeat/f-icons",
+  "contributors": [
+    "Github contributors <https://github.com/justeat/f-icons/graphs/contributors>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justeat/f-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justeat/f-icons/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "@kickoff/utils.scss": "2.1.1",
+    "include-media": "^1.4.9"
+  },
+  "devDependencies": {
+    "@justeat/stylelint-config-fozzie": "^1.1.0",
+    "stylelint": "^8.3.1"
+  },
+  "keywords": [
+    "fozzie",
+    "eyeglass-module"
+  ],
+  "scripts": {
+    "prepare": "yarn run lint",
+    "lint": "stylelint src/**/*.scss"
+  },
+  "stylelint": {
+    "extends": "@justeat/stylelint-config-fozzie"
+  },
+  "eyeglass": {
+    "name": "f-icons",
+    "sassDir": "src/scss",
+    "needs": "^1.1.2",
+    "exports": false
+  },
+  "assets": {
+    "root": "src/",
+    "glob": "img/**/*"
+  }
+}

@@ -1,0 +1,27 @@
+/**
+ * Arrow icons
+ * =================================
+ *
+ */
+
+
+/**
+ * Base Component styles
+ */
+.c-icon--chevron {
+    height: 11px;
+    width: 20px;
+}
+
+.c-icon--chevron--small {
+    height: 6px;
+    width: 14px;
+}
+
+.c-icon--chevron--up {
+    transform: rotate(180deg);
+}
+
+.c-icon--chevron--right {
+    transform: translateY(-2px) rotate(-90deg); // -2px is an aesthetic alignment for the chevron icon when inline with text
+}

@@ -1,0 +1,34 @@
+/**
+ * General icons
+ * =================================
+ *
+ */
+
+
+/**
+ * Component Variables
+ */
+$icon--blue : $blue !default;
+$icon--green : $green !default;
+
+
+/**
+ * Base Component styles
+ */
+.c-icon--tick {
+    height: 12px;
+    width: 16px;
+}
+
+.c-icon--tick--blue {
+    fill: $icon--blue;
+}
+
+.c-icon--tick--green {
+    fill: $icon--green;
+}
+
+.c-icon--cuisine {
+    height: 19px;
+    width: 17px;
+}

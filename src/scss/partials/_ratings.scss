@@ -1,0 +1,34 @@
+/**
+ * Star icons
+ * =================================
+ *
+ */
+
+/**
+ * Base Component styles
+ */
+
+.c-icon--star {
+    height: 14px;
+    width: 14px;
+}
+
+.c-icon--star--medium {
+    height: 28px;
+    width: 28px;
+}
+
+.c-icon--star--large {
+    height: 42px;
+    width: 42px;
+}
+
+.c-icon--star--fill,
+%c-icon--star--fill {
+    background-image: inline('#{$icon-path}/stars/star--filled.svg');
+}
+
+.c-icon--star--empty,
+%c-icon--star--empty {
+    background-image: inline('#{$icon-path}/stars/star--empty.svg');
+}
