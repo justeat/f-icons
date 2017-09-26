@@ -1,0 +1,30 @@
+{
+  "name": "@justeat/f-icons",
+  "description": "Common icons for use in Fozzie projects.",
+  "version": "0.0.1",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/justeat/f-icons",
+  "contributors": [
+    "Github contributors <https://github.com/justeat/f-icons/graphs/contributors>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justeat/f-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justeat/f-icons/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "fozzie"
+  ],
+  "assets": {
+    "root": "src/img",
+    "glob": "**/*"
+  }
+}
