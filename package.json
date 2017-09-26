@@ -24,7 +24,7 @@
     "fozzie"
   ],
   "assets": {
-    "root": "src/img",
-    "glob": "**/*"
+    "root": "src/",
+    "glob": "img/**/*"
   }
 }
