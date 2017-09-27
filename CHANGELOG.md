@@ -10,7 +10,7 @@ v0.1.0
 
 ### Changed
 - Renamed chevron icons to include the direction they point.
-- Normalised `viewbox` and `fill` properties.
+- Normalised `viewbox`, `fill`. `width`, and `height` attributes.
 
 ### Added
 - Added appstore icons for all countries.
