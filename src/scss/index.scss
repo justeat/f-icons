@@ -1,0 +1,55 @@
+/**
+ * f-icons
+ * =================================
+ * Common icons for use in Fozzie projects.
+ *
+ * Documentation: tbc
+ * Repo: https://github.com/justeat/f-icons
+ *
+ * Index:
+ * - Imports
+ * - Partials
+ * - Base Component styles
+ *
+ */
+
+
+/**
+ * Imports
+ */
+@import 'kickoff-utils'; // imports a set of helper functions and mixins – https://github.com/TryKickoff/kickoff-utils.scss
+@import 'include-media'; // Cleaner media query declarations – http://include-media.com
+
+
+/**
+ * Partials
+ */
+@import 'partials/appstore';
+@import 'partials/arrows';
+@import 'partials/cards';
+@import 'partials/certificates';
+@import 'partials/flags';
+@import 'partials/general';
+@import 'partials/operators';
+
+
+
+/**
+ * Base Component styles
+ */
+
+[class*='c-icon'] {
+    speak: none;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/**
+ * Base Icon Class
+ *
+ * Used when we have a standalone icon
+ */
+.c-icon {
+    display: block;
+}
