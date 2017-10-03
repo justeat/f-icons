@@ -4,6 +4,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v0.2.0
+------------------------------
+*October 03, 2017*
+
+### Added
+- Imported and modified icon styles from Fozzie module.
+- Set up eyeglass export for the new styles.
+
+### Changed
+- Rounded some of the icon width and heights.
+
+
 v0.1.0
 ------------------------------
 *September 27, 2017*
