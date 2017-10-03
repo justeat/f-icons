@@ -34,6 +34,10 @@
     "needs": "^1.1.2",
     "exports": false
   },
+  "scripts": {
+    "prepare": "yarn run lint",
+    "lint": "gulp scss:lint --prod"
+  },
   "assets": {
     "root": "src/",
     "glob": "img/**/*"
