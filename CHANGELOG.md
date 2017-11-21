@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.2.1
 ------------------------------
-*November 15, 2017*
+*November 21, 2017*
 
 ### Added
-- Added `cards.svg` icon
+- Added card type icons
 
 
 v0.2.0
