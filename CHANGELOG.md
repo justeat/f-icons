@@ -4,6 +4,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v0.2.2
+------------------------------
+*November 28, 2017*
+
+### Added
+- Added `stylelint` and `@justeat/stylelint-config-fozzie` packages.
+
+### Changed
+- Updated `lint` task to call stylelint.
+
+
 v0.2.1
 ------------------------------
 *November 21, 2017*
