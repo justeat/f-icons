@@ -24,19 +24,26 @@
     "@kickoff/utils.scss": "2.1.1",
     "include-media": "^1.4.9"
   },
+  "devDependencies": {
+    "@justeat/stylelint-config-fozzie": "^1.1.0",
+    "stylelint": "^8.3.1"
+  },
   "keywords": [
     "fozzie",
     "eyeglass-module"
   ],
+  "scripts": {
+    "prepare": "yarn run lint",
+    "lint": "stylelint src/**/*.scss"
+  },
+  "stylelint": {
+    "extends": "@justeat/stylelint-config-fozzie"
+  },
   "eyeglass": {
     "name": "f-icons",
     "sassDir": "src/scss",
     "needs": "^1.1.2",
     "exports": false
-  },
-  "scripts": {
-    "prepare": "yarn run lint",
-    "lint": "gulp scss:lint --prod"
   },
   "assets": {
     "root": "src/",
