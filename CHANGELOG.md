@@ -13,7 +13,7 @@ v0.2.4
         - knifeAndFork
     - tools
         - eyeglass
-        - sliders
+        - sliders.horizontal
         - sort.amount
 
 v0.2.3
