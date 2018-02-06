@@ -10,7 +10,7 @@ v0.2.4
 ### Added
 - Added icons used on the search page.
     - general
-        - knifeAndFork
+        - forkAndSpoon
     - tools
         - eyeglass
         - sliders.horizontal
