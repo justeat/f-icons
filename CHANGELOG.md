@@ -13,8 +13,8 @@ v0.2.4
         - forkAndSpoon
     - tools
         - eyeglass
-        - sliders.horizontal
-        - sort.amount
+        - slidersHorizontal
+        - sortAmount
 
 v0.2.3
 ------------------------------
