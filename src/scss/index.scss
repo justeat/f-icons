@@ -31,6 +31,7 @@
 @import 'partials/flags';
 @import 'partials/general';
 @import 'partials/operators';
+@import 'partials/tools';
 
 
 
@@ -52,4 +53,9 @@
  */
 .c-icon {
     display: block;
+}
+
+.c-icon--inline {
+    display: inline-block;
+    vertical-align: middle;
 }
