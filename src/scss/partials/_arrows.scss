@@ -21,3 +21,7 @@
 .c-icon--chevron--up {
     transform: rotate(180deg);
 }
+
+.c-icon--chevron--right {
+    transform: translateY(-2px) rotate(-90deg); // -2px is an aesthetic alignment for the chevron icon when inline with text
+}
