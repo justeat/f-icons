@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.3.4
 ------------------------------
-*February 14, 2018*
+*February 19, 2018*
 
 ### Added
 - Added class to rotate chevron icon to face the right.
