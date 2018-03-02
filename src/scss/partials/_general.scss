@@ -9,6 +9,7 @@
  * Component Variables
  */
 $icon--blue : $blue !default;
+$icon--green : $green !default;
 
 
 /**
@@ -21,6 +22,10 @@ $icon--blue : $blue !default;
 
 .c-icon--tick--blue {
     fill: $icon--blue;
+}
+
+.c-icon--tick--green {
+    fill: $icon--green;
 }
 
 .c-icon--forkAndSpoon {
