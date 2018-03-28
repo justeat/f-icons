@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.6.0
 ------------------------------
-*March 27, 2018*
+*March 28, 2018*
 
 ### Added
 - Added stars for rating and size modifiers.
