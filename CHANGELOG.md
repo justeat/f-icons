@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.7.0
 ------------------------------
-*April 4, 2018*
+*April 3, 2018*
 
 ### Fixed
 - Fixed missing reference to ratings SCSS file.
