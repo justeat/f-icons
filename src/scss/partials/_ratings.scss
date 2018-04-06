@@ -22,3 +22,13 @@
     height: 42px;
     width: 42px;
 }
+
+.c-icon--star--fill,
+%c-icon--star--fill {
+    background-image: inline('#{$icon-path}/stars/star--filled.svg');
+}
+
+.c-icon--star--empty,
+%c-icon--star--empty {
+    background-image: inline('#{$icon-path}/stars/star--empty.svg');
+}
