@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-chevron_down</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icons-16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons-16/chevron/chevron_down/icon-chevron_down-16-darkgrey" transform="translate(-4.000000, -6.000000)" fill="#333333" fill-rule="nonzero">
-            <path d="M8,9.52859548 L11.4309644,6.09763107 C11.5611392,5.96745631 11.7721942,5.96745631 11.9023689,6.09763107 C12.0325437,6.22780584 12.0325437,6.43886083 11.9023689,6.56903559 L8.23570226,10.2357023 C8.1055275,10.365877 7.8944725,10.365877 7.76429774,10.2357023 L4.09763107,6.56903559 C3.96745631,6.43886083 3.96745631,6.22780584 4.09763107,6.09763107 C4.22780584,5.96745631 4.43886083,5.96745631 4.56903559,6.09763107 L8,9.52859548 Z" id="icon-chevron_down"></path>
-        </g>
-    </g>
-</svg>
+<svg width="8" height="5" viewBox="0 0 8 5" xmlns="http://www.w3.org/2000/svg"><path d="M4 3.53L7.43.1a.33.33 0 1 1 .47.47L4.24 4.24a.33.33 0 0 1-.48 0L.1.57A.33.33 0 0 1 .57.1L4 3.53z" fill="#333" fill-rule="nonzero"/></svg>
