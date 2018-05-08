@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.9.0
 ------------------------------
-*May 3, 2018*
+*May 8, 2018*
 
 ### Changed
 - Update current icon set with new versions.
