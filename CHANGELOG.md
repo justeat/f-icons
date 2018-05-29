@@ -5,10 +5,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.9.0
 ------------------------------
-*May 8, 2018*
+*May 29, 2018*
 
 ### Changed
 - Update current icon set with new versions.
+
 
 v0.8.0
 ------------------------------
@@ -17,6 +18,7 @@ v0.8.0
 ### Added
 - Added extendable class so image path can be easily reused rather than duplicated.
 
+
 v0.7.0
 ------------------------------
 *April 3, 2018*
@@ -24,12 +26,15 @@ v0.7.0
 ### Fixed
 - Fixed missing reference to ratings SCSS file.
 
+
 v0.6.0
 ------------------------------
 *March 28, 2018*
 
+
 ### Added
 - Added stars for rating and size modifiers.
+
 
 v0.5.0
 ------------------------------
@@ -37,6 +42,7 @@ v0.5.0
 
 ### Added
 - Added a green color modifier to the tick icon.
+
 
 v0.4.0
 ------------------------------
@@ -53,6 +59,7 @@ v0.3.4
 ### Added
 - Added class to rotate chevron icon to face the right.
 
+
 v0.2.4
 ------------------------------
 *February 6, 2018*
@@ -66,12 +73,14 @@ v0.2.4
         - slidersHorizontal
         - sortAmount
 
+
 v0.2.3
 ------------------------------
 *December 13, 2017*
 
 ### Added
 - Added `flag.au.svg` and `flag.nz.svg`.
+
 
 v0.2.2
 ------------------------------
