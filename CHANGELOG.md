@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v0.11.0
 ------------------------------
-*June 26, 2018*
+*July 4, 2018*
 
 ### Changed
 - Update to star--empty.svg. SVG looks like it lost it's fill colour when last compressed.
