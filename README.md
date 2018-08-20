@@ -1,6 +1,7 @@
 # `f-icons` — Common icons for use in Fozzie projects.
 
 [![npm version](https://badge.fury.io/js/%40justeat%2Ff-icons.svg)](https://badge.fury.io/js/%40justeat%2Ff-icons)
+[![Build Status](https://travis-ci.org/justeat/f-icons.svg)](https://travis-ci.org/justeat/f-icons)
 
 ## Usage
 
