@@ -1,7 +1,7 @@
 {
   "name": "@justeat/f-icons",
   "description": "Common icons for use in Fozzie projects.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "files": [
     "src"
   ],

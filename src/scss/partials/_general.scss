@@ -32,3 +32,14 @@ $icon--green : $green !default;
     height: 19px;
     width: 17px;
 }
+
+.c-icon--info {
+    height: 22px;
+    width: 22px;
+}
+
+    .c-icon--info--blue {
+        path {
+            fill: $blue;
+        }
+    }
