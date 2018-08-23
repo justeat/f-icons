@@ -4,6 +4,24 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.4.0
+------------------------------
+*August 24, 2018*
+
+### Added
+- Delivery icons & styles.
+- Collection icon & styles.
+- Offer icons & styles.
+- Alert icon & styles.
+- Basket icon & styles.
+- Nut allergy icon & styles.
+- Spicy icon & styles.
+- Vegetarian icon & styles.
+
+### Changed
+- Removed fill attribute from some SVGs which will set their colour to black by default.
+
+
 v1.3.0
 ------------------------------
 *August 21, 2018*

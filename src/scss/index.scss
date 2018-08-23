@@ -22,6 +22,12 @@
 
 
 /**
+ * Core variables
+ */
+@import 'settings/variables';
+
+
+/**
  * Partials
  */
 @import 'partials/appstore';
@@ -38,7 +44,6 @@
 /**
  * Base Component styles
  */
-
 [class*='c-icon'] {
     speak: none;
     background-size: contain;
@@ -55,7 +60,37 @@
     display: block;
 }
 
-.c-icon--inline {
-    display: inline-block;
-    vertical-align: middle;
-}
+    .c-icon--inline {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .c-icon--white {
+        path {
+            fill: $icon--white;
+        }
+    }
+
+    .c-icon--blue {
+        path {
+            fill: $icon--blue;
+        }
+    }
+
+    .c-icon--green {
+        path {
+            fill: $icon--green;
+        }
+    }
+
+    .c-icon--orange {
+        path {
+            fill: $icon--orange;
+        }
+    }
+
+    .c-icon--grey--darkest {
+        path {
+            fill: $icon--grey--darkest;
+        }
+    }
