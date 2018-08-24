@@ -22,7 +22,9 @@
   },
   "dependencies": {
     "@kickoff/utils.scss": "2.1.1",
-    "include-media": "^1.4.9"
+    "danger": "^3.8.6",
+    "include-media": "^1.4.9",
+    "svgo": "^1.0.5"
   },
   "devDependencies": {
     "@justeat/stylelint-config-fozzie": "^1.1.0",
