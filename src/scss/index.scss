@@ -66,31 +66,31 @@
     }
 
     .c-icon--white {
-        path {
+        * {
             fill: $icon--white;
         }
     }
 
     .c-icon--blue {
-        path {
+        * {
             fill: $icon--blue;
         }
     }
 
     .c-icon--green {
-        path {
+        * {
             fill: $icon--green;
         }
     }
 
     .c-icon--orange {
-        path {
+        * {
             fill: $icon--orange;
         }
     }
 
     .c-icon--grey--darkest {
-        path {
+        * {
             fill: $icon--grey--darkest;
         }
     }
