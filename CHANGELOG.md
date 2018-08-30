@@ -12,8 +12,7 @@ v1.7.0
 - Clock Icon
 
 ### Changed
-- Added path fill to offer icon
-- Added path fill to sort amount icon
+- Remove path fill from sort amount icon
 - Updated Map Pin icon
 
 
