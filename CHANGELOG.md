@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v1.11.0
 ------------------------------
-*September 14, 2018*
+*September 17, 2018*
 
 ### Added
 - Local legends Icon
