@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v1.15.0
 ------------------------------
-*October 25, 2018*
+*October 26, 2018*
 
 ### Added
 - Add social media icons
