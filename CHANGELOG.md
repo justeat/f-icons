@@ -4,12 +4,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.15.0
+------------------------------
+*October 26, 2018*
+
+### Added
+- Add social media icons
+
+
 v1.14.1
 ------------------------------
 *October 25, 2018*
 
 ### Changed
-- Fix existing linting new line error 
+- Fix existing linting new line error
 
 
 v1.14.0
@@ -25,7 +33,7 @@ v1.13.1
 *October 17, 2018*
 
 ### Changed
-- Fixed linting new line error 
+- Fixed linting new line error
 
 
 v1.13.0
