@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/%40justeat%2Ff-icons.svg)](https://badge.fury.io/js/%40justeat%2Ff-icons)
 [![Build Status](https://travis-ci.org/justeat/f-icons.svg)](https://travis-ci.org/justeat/f-icons)
+[![Known Vulnerabilities](https://snyk.io/test/github/justeat/f-icons/badge.svg?targetFile=package.json)](https://snyk.io/test/github/justeat/f-icons?targetFile=package.json)
+
 
 ## Usage
 
