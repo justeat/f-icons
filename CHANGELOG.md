@@ -3,12 +3,30 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+v1.18.0
+------------------------------
+*January 25, 2019*
+
+### Added
+- DangerJS dependency.
+- DangerJS travis config.
+- Snyk badge to readme.
+
+### Changed
+- Narrow white rays image colour updated to be white rather than grey.
+- Updated dependencies.
+- Travis runs build on Node v8 & 10.
+- Package requires Node v8 or above.
+
+
 v1.17.0
 ------------------------------
 *January 22, 2019*
 
 ### Added
 - Added new order detail icons
+
 
 v1.16.0
 ------------------------------
@@ -27,6 +45,7 @@ v1.15.1
 
 ### Changed
 - Rename google-plus icon
+
 
 v1.15.0
 ------------------------------
