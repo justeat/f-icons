@@ -66,6 +66,10 @@
         vertical-align: middle;
     }
 
+    .c-icon--pushLeft {
+        float: left;
+    }
+
     .c-icon--white {
         * {
             fill: $icon--white;
