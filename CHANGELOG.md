@@ -4,6 +4,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.22.0
+------------------------------
+*March 20, 2019*
+
+### Changed
+- Re-ordered card classes into alphabetical order.
+- Added height to large minus icon class.
+
+### Removed
+- `width` and `height` attributes from SVGs.
+
+
 v1.21.0
 ------------------------------
 *March 20, 2019*
