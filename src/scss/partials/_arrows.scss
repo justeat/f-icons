@@ -24,6 +24,11 @@
     transform: rotate(180deg);
 }
 
+// Rotates the chevron to face to the left
+.c-icon--chevron--left {
+    transform: translateY(-2px) rotate(90deg); // -2px is an aesthetic alignment for the chevron icon when inline with text
+}
+
 // Rotates the chevron to face to the right
 .c-icon--chevron--right {
     transform: translateY(-2px) rotate(-90deg); // -2px is an aesthetic alignment for the chevron icon when inline with text
