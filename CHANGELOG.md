@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v1.24.0
 ------------------------------
-*March 20, 2019*
+*April 9, 2019*
 
 ### Added
 - `c-icon--chevron--left` class.
