@@ -1,7 +1,7 @@
 {
   "name": "@justeat/f-icons",
   "description": "Common icons for use in Fozzie projects.",
-  "version": "1.26.0",
+  "version": "1.27.0",
   "files": [
     "src"
   ],
@@ -21,14 +21,14 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "@justeat/f-utils": "0.1.0",
+    "@justeat/f-utils": "0.3.0",
     "include-media": "1.4.9"
   },
   "devDependencies": {
     "@justeat/stylelint-config-fozzie": "2.0.1",
-    "danger": "7.0.15",
-    "stylelint": "9.10.1",
-    "stylelint-scss": "3.5.4"
+    "danger": "8.0.0",
+    "stylelint": "10.1.0",
+    "stylelint-scss": "3.8.0"
   },
   "keywords": [
     "fozzie",
