@@ -3,12 +3,23 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+v1.29.0
+------------------------------
+*July 17, 2019*
+
+### Changed
+- Renamed ids for various icons to not have overrides.
+- Updated yarn.lock to fix some vulnerability issues.
+
+
 v1.28.0
 ------------------------------
 *June 27, 2019*
 
 ### Added
 - Lunch icons.
+
 
 v1.27.0
 ------------------------------
