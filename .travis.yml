@@ -4,12 +4,20 @@ node_js:
   - "10"
   - "8"
 
-cache: yarn
+cache:
+  directories:
+    - node_modules
 
 sudo: false
 
 notifications:
   email: false
 
+before_script:
+  - npm prune
+
 script:
-  - yarn danger ci
+  - npm run danger ci
+
+after_success:
+  - npx codecov

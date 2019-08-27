@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "@justeat/eslint-config-fozzie"
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "no-param-reassign": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off"
+  }
+}

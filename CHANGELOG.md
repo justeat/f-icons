@@ -4,6 +4,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0--beta.1
+------------------------------
+*August 22, 2019*
+
+### Changed
+- Complete restructing of how the icons are structured in the repo and exported.
+  This is so that when the module is exported, icons can be included in a variety of different ways for client side or server side includes.  The main thing this will give us is that the icons can then be exposed for use in Vue/React projects more effectively via a helper module.
+
+  This restructuring has taken massive insipration from the [Feather SVG icon library](https://github.com/feathericons/feather), including their API and build methods which are run on top of our icon-set.
+
+
 v1.34.0
 ------------------------------
 *June 06, 2020*
