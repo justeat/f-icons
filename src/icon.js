@@ -3,13 +3,15 @@ import classnames from 'classnames/dedupe';
 import DEFAULT_ATTRS from './default-attrs.json';
 
 class Icon {
-    constructor (name, contents, tags = []) {
+    constructor (name, contents, attrs, tags = []) {
         this.name = name;
         this.contents = contents;
         this.tags = tags;
         this.attrs = {
             ...DEFAULT_ATTRS,
+            ...attrs,
             ...{ class: `ficon ficon-${name}` }
+
         };
     }
 

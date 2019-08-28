@@ -14,10 +14,15 @@ function buildIconsObject (svgFiles, getSvg) {
         const name = path.basename(svgFile, '.svg');
         const svg = getSvg(svgFile);
         const contents = getSvgContents(svg);
-        return { name, contents };
+        const attributes = getSvgAttributes(svg);
+
+        return { name, contents, attributes };
     })
     .reduce((icons, icon) => {
-        icons[icon.name] = icon.contents;
+        icons[icon.name] = {
+            contents: icon.contents,
+            attrs: icon.attributes
+        };
         return icons;
     }, {});
 }
@@ -30,6 +35,12 @@ function buildIconsObject (svgFiles, getSvg) {
 function getSvgContents (svg) {
     const $ = cheerio.load(svg);
     return minify($('svg').html(), { collapseWhitespace: true });
+}
+
+function getSvgAttributes (svg) {
+    const $ = cheerio.load(svg);
+    const viewBox = $('svg').attr('viewBox');
+    return { viewBox };
 }
 
 export default buildIconsObject;
