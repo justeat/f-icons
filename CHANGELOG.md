@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0--beta.4
+------------------------------
+*August 29, 2019*
+
+### Fixed
+- SVG attributes were being lowercased when some of them are case sensitive. Updated the HTML minifier to respect casing.
+
+
 v2.0.0--beta.3
 ------------------------------
 *August 28, 2019*

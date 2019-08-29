@@ -34,7 +34,7 @@ function buildIconsObject (svgFiles, getSvg) {
  */
 function getSvgContents (svg) {
     const $ = cheerio.load(svg);
-    return minify($('svg').html(), { collapseWhitespace: true });
+    return minify($('svg').html(), { collapseWhitespace: true, caseSensitive: true });
 }
 
 function getSvgAttributes (svg) {
