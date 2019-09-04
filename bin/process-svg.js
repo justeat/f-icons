@@ -28,6 +28,7 @@ function processSvg (svg) {
 function optimize (svg) {
     const svgo = new Svgo({
         plugins: [
+            { prefixIds: true },
             { convertShapeToPath: false },
             { mergePaths: false },
             { removeTitle: true }

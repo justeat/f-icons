@@ -4,7 +4,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-v2.0.0--beta.4
+v2.0.0-beta.5
+------------------------------
+*September 4, 2019*
+
+### Added
+- Svgo prefixIds property for icon optimisation
+- JE transparent logo and Menulog logo
+
+
+v2.0.0-beta.4
 ------------------------------
 *August 29, 2019*
 
@@ -12,7 +21,7 @@ v2.0.0--beta.4
 - SVG attributes were being lowercased when some of them are case sensitive. Updated the HTML minifier to respect casing.
 
 
-v2.0.0--beta.3
+v2.0.0-beta.3
 ------------------------------
 *August 28, 2019*
 
@@ -20,7 +29,7 @@ v2.0.0--beta.3
 - Removed `console.log` left in for testing
 
 
-v2.0.0--beta.2
+v2.0.0-beta.2
 ------------------------------
 *August 28, 2019*
 
@@ -28,7 +37,7 @@ v2.0.0--beta.2
 - Viewbox attribute added so that the standard viewbox size set on the SVG isn't lost in the API calls
 
 
-v2.0.0--beta.1
+v2.0.0-beta.1
 ------------------------------
 *August 22, 2019*
 
