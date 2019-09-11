@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0-beta.6
+------------------------------
+*September 11, 2019*
+
+### Added
+- Profile icon
+
+
 v2.0.0-beta.5
 ------------------------------
 *September 4, 2019*
