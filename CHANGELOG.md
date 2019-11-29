@@ -11,6 +11,9 @@ v1.31.0
 ### Added
 - Review stars for Menulog
 
+### Changed
+- SVG for alcohol age
+
 
 v1.30.0
 ------------------------------

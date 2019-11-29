@@ -33,6 +33,11 @@
     background-image: inline('#{$icon-path}/stars/star--filled--orange.svg');
 }
 
+.c-icon--star--fill--yellow,
+%c-icon--star--fill--yellow {
+    background-image: inline('#{$icon-path}/stars/star--filled--yellow.svg');
+}
+
 .c-icon--star--empty,
 %c-icon--star--empty {
     background-image: inline('#{$icon-path}/stars/star--empty.svg');
