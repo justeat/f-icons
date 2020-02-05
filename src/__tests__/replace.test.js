@@ -2,9 +2,12 @@
 import replace from '../replace';
 
 jest.mock('../../dist/icons.json', () => ({
-    icon1:
-    '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />',
-    icon2: '<circle cx="12" cy="12" r="11" />'
+    icon1: {
+        contents: '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />'
+    },
+    icon2: {
+        contents: '<circle cx="12" cy="12" r="11" />'
+    }
 }));
 
 test('replaces [data-ficons] elements with SVG markup', () => {

@@ -2,8 +2,9 @@
 import toSvg from '../to-svg';
 
 jest.mock('../../dist/icons.json', () => ({
-    icon1:
-    '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />'
+    icon1: {
+        contents: '<line x1="23" y1="1" x2="1" y2="23" /><line x1="1" y1="1" x2="23" y2="23" />'
+    }
 }));
 
 test('returns correct string', () => {
