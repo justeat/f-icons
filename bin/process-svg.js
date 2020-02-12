@@ -48,7 +48,7 @@ function optimize (svg) {
 function setAttrs (svg) {
     const $ = cheerio.load(svg);
 
-    Object.keys(DEFAULT_ATTRS).forEach(key => $('svg').attr(key, DEFAULT_ATTRS[key]),);
+    Object.keys(DEFAULT_ATTRS).forEach(key => $('svg').attr(key, DEFAULT_ATTRS[key]));
 
     return $('body').html();
 }

@@ -15,7 +15,7 @@ function replace (attrs = {}) {
 
     const elementsToReplace = document.querySelectorAll('[data-ficons]');
 
-    Array.from(elementsToReplace).forEach(element => replaceElement(element, attrs),);
+    Array.from(elementsToReplace).forEach(element => replaceElement(element, attrs));
 }
 
 /**
@@ -36,7 +36,7 @@ function replaceElement (element, attrs = {}) {
     });
     const svgDocument = new DOMParser().parseFromString(
         svgString,
-        'image/svg+xml',
+        'image/svg+xml'
     );
     const svgElement = svgDocument.querySelector('svg');
 

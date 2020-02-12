@@ -8,7 +8,7 @@ import icons from './icons';
  * @returns {string}
  */
 function toSvg (name, attrs = {}) {
-    console.warn('ficons.toSvg() is deprecated. Please use ficons.icons[name].toSvg() instead.',);
+    console.warn('ficons.toSvg() is deprecated. Please use ficons.icons[name].toSvg() instead.');
 
     if (!name) {
         throw new Error('The required `key` (icon name) parameter is missing.');
@@ -17,7 +17,7 @@ function toSvg (name, attrs = {}) {
     if (!icons[name]) {
         throw new Error(`No icon matching '${
             name
-        }'. See the complete list of icons at https://feathericons.com`,);
+        }'. See the complete list of icons at https://feathericons.com`);
     }
 
     return icons[name].toSvg(attrs);
