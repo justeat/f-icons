@@ -8,7 +8,8 @@ v1.32.1
 ------------------------------
 *February 12, 2019*
 
-No changes. Contains a version bump to replace a false release of the beta package into the latest tag.
+### Added
+- Gift icon for offers v2
 
 v1.32.0
 ------------------------------
