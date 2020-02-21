@@ -4,9 +4,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.33.0
+------------------------------
+*February 21, 2020*
+
+### Added
+- New size variation for map icon
+
+
 v1.32.0
 ------------------------------
-*February 10, 2019*
+*February 10, 2020*
 
 ### Added
 - Gift icon for offers v2
