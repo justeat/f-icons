@@ -4,6 +4,33 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0-beta.11
+------------------------------
+*June 8, 2020*
+
+### Changed
+- Menulog logo updated to new JET theme.
+
+
+v2.0.0-beta.10
+------------------------------
+*February 5, 2020*
+
+### Added
+- Alcohol age and star filled orange icons.
+
+
+v2.0.0-beta.9
+------------------------------
+*February 12, 2020*
+
+### Added
+- Add prepare command and update tests.
+
+### Fixed
+- Fix lint errors.
+
+
 v2.0.0-beta.8
 ------------------------------
 *February 5, 2020*
