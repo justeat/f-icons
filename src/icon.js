@@ -10,7 +10,7 @@ class Icon {
         this.attrs = {
             ...DEFAULT_ATTRS,
             ...attrs,
-            ...{ class: `ficon ficon-${name}` }
+            ...{ class: `c-ficon c-ficon--${name}` }
 
         };
     }

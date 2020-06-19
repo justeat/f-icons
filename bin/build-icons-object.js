@@ -11,17 +11,17 @@ import { minify } from 'html-minifier';
 function buildIconsObject (svgFiles, getSvg) {
     return svgFiles
     .map(svgFile => {
-        const name = path.basename(svgFile, '.svg');
         const svg = getSvg(svgFile);
-        const contents = getSvgContents(svg);
         const attributes = getSvgAttributes(svg);
+        const contents = getSvgContents(svg);
+        const name = path.basename(svgFile, '.svg');
 
-        return { name, contents, attributes };
+        return { attributes, contents, name };
     })
     .reduce((icons, icon) => {
         icons[icon.name] = {
-            contents: icon.contents,
-            attrs: icon.attributes
+            attrs: icon.attributes,
+            contents: icon.contents
         };
         return icons;
     }, {});
@@ -34,7 +34,10 @@ function buildIconsObject (svgFiles, getSvg) {
  */
 function getSvgContents (svg) {
     const $ = cheerio.load(svg);
-    return minify($('svg').html(), { collapseWhitespace: true, caseSensitive: true });
+    return minify($('svg').html(), {
+        caseSensitive: true,
+        collapseWhitespace: true
+    });
 }
 
 function getSvgAttributes (svg) {

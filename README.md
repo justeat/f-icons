@@ -44,7 +44,7 @@ Or load the script from a CDN provider:
 ```html
 <!-- choose one -->
 <script src="https://unpkg.com/@justeat/f-icons"></script>
-<script src="https://cdn.jsdelivr.net/npm/@justeat/f-icons/dist/feather.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@justeat/f-icons/dist/ficons.min.js"></script>
 ```
 
 After including the script, `f-icons` will be available as a global variable. ### TODO test if this is the name of the global variable ###
@@ -98,20 +98,181 @@ ficons.icons.x
 //    contents: '<line ... /><line ... />`,
 //    tags: ['cancel', 'close', 'delete', 'remove'],
 //    attrs: {
-//      class: 'ficons ficons-x',
+//      class: 'c-ficon c-ficon--x',
 //      xmlns: 'http://www.w3.org/2000/svg',
 //    },
 //    toSvg: [Function],
 // }
 
 ficons.icons.x.toSvg()
-// <svg class="ficons ficons-x" ...><line ... /><line ... /></svg>
+// <svg class="c-ficon c-ficon--x" ...><line ... /><line ... /></svg>
 
 ficons.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' })
-// <svg class="ficons ficons-x foo bar" stroke-width="1" color="red" ...><line ... /><line ... /></svg>
+// <svg class="c-ficon c-ficon--x foo bar" stroke-width="1" color="red" ...><line ... /><line ... /></svg>
 ```
 
 See the [API Reference](#api-reference) for more information about the available properties and methods of the `ficons` object.
+
+
+## API Reference
+
+### `ficons.icons`
+
+An object with data about every icon.
+
+#### Usage
+
+```js
+ficons.icons.x
+// {
+//    name: 'x',
+//    contents: '<line ... /><line ... />',
+//    tags: ['cancel', 'close', 'delete', 'remove'],
+//    attrs: {
+//      class: 'c-ficon c-ficon--x',
+//      xmlns: 'http://www.w3.org/2000/svg',
+//      width: 24,
+//      height: 24,
+//      viewBox: '0 0 24 24',
+//      fill: 'none',
+//      stroke: 'currentColor',
+//      'stroke-width': 2,
+//      'stroke-linecap': 'round',
+//      'stroke-linejoin': 'round',
+//    },
+//    toSvg: [Function],
+// }
+
+ficons.icons.x.toString()
+// '<line ... /><line ... />'
+```
+
+> **Note:** `x` in the above example can be replaced with any valid icon name.  Icons with multi-word names (e.g. `arrow-right`) **cannot** be accessed using dot notation (e.g. `ficons.icons.x`). Instead, use bracket notation (e.g. `ficons.icons['arrow-right']`).
+
+[View Source](https://github.com/justeat/f-icons/blob/master/src/icons.js)
+
+---
+
+### `ficons.icons[name].toSvg([attrs])`
+
+Returns an SVG string.
+
+#### Parameters
+
+| Name      | Type   | Description |
+| --------- | ------ | ----------- |
+| `attrs` (optional) | Object |  Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+> **Hint:** You might find these SVG attributes helpful for manipulating icons:
+> * [`color`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/color)
+> * [`width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/width)
+> * [`height`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/height)
+> * [`stroke-width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-width)
+> * [`stroke-linecap`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-linecap)
+> * [`stroke-linejoin`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-linejoin)
+
+#### Usage
+
+```js
+ficons.icons.circle.toSvg()
+// '<svg class="c-ficon c-ficon--circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+
+ficons.icons.circle.toSvg({ 'stroke-width': 1 })
+// '<svg class="c-ficon c-ficon--circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+
+ficons.icons.circle.toSvg({ class: 'foo bar' })
+// '<svg class="c-ficon c-ficon--circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+```
+
+[View Source](https://github.com/justeat/f-icons/blob/master/src/icon.js)
+
+---
+
+### `ficons.replace([attrs])`
+
+Replaces all elements that have a `data-ficons` attribute with SVG markup corresponding to the element's `data-ficons` attribute value.
+
+#### Parameters
+
+| Name       | Type   | Description |
+| ---------- | ------ | ----------- |
+| `attrs` (optional)  | Object | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+#### Usage
+
+> **Note:** `ficons.replace()` only works in a browser environment.
+
+Simple usage:
+```html
+<i data-ficons="circle"></i>
+<!--
+<i> will be replaced with:
+<svg class="c-ficon c-ficon--circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  ficons.replace()
+</script>
+```
+
+You can pass `ficons.replace()` an `attrs` object:
+```html
+<i data-ficons="circle"></i>
+<!--
+<i> will be replaced with:
+<svg class="c-ficon c-ficon--circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  ficons.replace({ class: 'foo bar', 'stroke-width': 1 })
+</script>
+```
+
+All attributes on the placeholder element (i.e. `<i>`) will be copied to the `<svg>` tag:
+
+```html
+<i data-ficons="circle" id="my-circle" class="foo bar" stroke-width="1"></i>
+<!--
+<i> will be replaced with:
+<svg id="my-circle" class="c-ficon c-ficon--circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+-->
+
+<script>
+  ficons.replace()
+</script>
+```
+
+[View Source](https://github.com/justeat/f-icons/blob/master/src/replace.js)
+
+---
+
+### (DEPRECATED) `ficons.toSvg(name, [attrs])`
+
+> **Note:** `ficons.toSvg()` is deprecated. Please use `ficons.icons[name].toSvg()` instead.
+
+Returns an SVG string.
+
+#### Parameters
+
+| Name      | Type   | Description |
+| --------- | ------ | ----------- |
+| `name`    | string | Icon name   |
+| `attrs` (optional) | Object |  Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+#### Usage
+
+```js
+ficons.toSvg('circle')
+// '<svg class="c-ficon c-ficon--circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+
+ficons.toSvg('circle', { 'stroke-width': 1 })
+// '<svg class="c-ficon c-ficon--circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+
+ficons.toSvg('circle', { class: 'foo bar' })
+// '<svg class="c-ficon c-ficon--circle foo bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'
+```
+
+[View Source](https://github.com/justeat/f-icons/blob/master/src/to-svg.js)
 
 
 ## Credits

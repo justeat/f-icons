@@ -9,7 +9,7 @@ jest.mock('../../dist/icons.json', () => ({
 
 test('returns correct string', () => {
     expect(toSvg('icon1')).toMatchSnapshot();
-    expect(toSvg('icon1', { 'stroke-width': 1, color: 'red' })).toMatchSnapshot();
+    expect(toSvg('icon1', { color: 'red', 'stroke-width': 1 })).toMatchSnapshot();
     expect(toSvg('icon1', { class: 'foo bar', color: 'red' })).toMatchSnapshot();
 });
 

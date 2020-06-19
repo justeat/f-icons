@@ -12,11 +12,11 @@ import DEFAULT_ATTRS from '../src/default-attrs.json';
 function processSvg (svg) {
     return (
         optimize(svg)
-      .then(setAttrs)
-      .then(format)
-      // remove semicolon inserted by prettier
-      // because prettier thinks it's formatting JSX not HTML
-      .then(svg => svg.replace(/;/g, ''))
+            .then(setAttrs)
+            .then(format)
+            // remove semicolon inserted by prettier
+            // because prettier thinks it's formatting JSX not HTML
+            .then(svg => svg.replace(/;/g, ''))
     );
 }
 

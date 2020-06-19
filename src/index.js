@@ -1,5 +1,5 @@
 import icons from './icons';
-import toSvg from './to-svg';
 import replace from './replace';
+import toSvg from './to-svg';
 
-module.exports = { icons, toSvg, replace };
+module.exports = { icons, replace, toSvg };

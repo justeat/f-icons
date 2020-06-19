@@ -20,7 +20,7 @@ test('constructs icon object correctly', () => {
 
 test('toSvg() returns correct string', () => {
     expect(icon1.toSvg()).toMatchSnapshot();
-    expect(icon1.toSvg({ 'stroke-width': 1, color: 'red' })).toMatchSnapshot();
+    expect(icon1.toSvg({ color: 'red', 'stroke-width': 1 })).toMatchSnapshot();
     expect(icon1.toSvg({ class: 'foo bar', color: 'red' })).toMatchSnapshot();
 });
 

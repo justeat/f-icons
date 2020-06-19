@@ -30,6 +30,6 @@ test('sets attributes passed as parameters', () => {
     document.body.innerHTML =
     '<i data-ficons="icon1" id="test" class="foo bar" stroke-width="1"></i>';
     expect(document.body.innerHTML).toMatchSnapshot();
-    replace({ class: 'foo bar hello', 'stroke-width': 1.5, color: 'salmon' });
+    replace({ class: 'foo bar hello', color: 'salmon', 'stroke-width': 1.5 });
     expect(document.body.innerHTML).toMatchSnapshot();
 });
