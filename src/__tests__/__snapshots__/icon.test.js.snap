@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constructs icon object correctly 1`] = `
+Icon {
+  "attrs": Object {
+    "class": "c-ficon c-ficon--test",
+    "xmlns": "http://www.w3.org/2000/svg",
+  },
+  "contents": "<line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\" /><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\" />",
+  "name": "test",
+  "tags": Array [
+    "hello",
+    "world",
+    "foo",
+    "bar",
+  ],
+}
+`;
+
+exports[`constructs icon object correctly 2`] = `
+Icon {
+  "attrs": Object {
+    "class": "c-ficon c-ficon--test",
+    "xmlns": "http://www.w3.org/2000/svg",
+  },
+  "contents": "<line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\" /><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\" />",
+  "name": "test",
+  "tags": Array [],
+}
+`;
+
+exports[`toString() returns correct string 1`] = `"[object Object]"`;
+
+exports[`toSvg() returns correct string 1`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" class=\\"c-ficon c-ficon--test\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\" /><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\" /></svg>"`;
+
+exports[`toSvg() returns correct string 2`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" class=\\"c-ficon c-ficon--test\\" color=\\"red\\" stroke-width=\\"1\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\" /><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\" /></svg>"`;
+
+exports[`toSvg() returns correct string 3`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" class=\\"c-ficon c-ficon--test foo bar\\" color=\\"red\\"><line x1=\\"23\\" y1=\\"1\\" x2=\\"1\\" y2=\\"23\\" /><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\" /></svg>"`;

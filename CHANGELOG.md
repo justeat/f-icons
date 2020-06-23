@@ -4,6 +4,123 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0
+------------------------------
+*June 19, 2020*
+
+v2 Release! This converts `f-icons` into more of a library and API than what v1 was (see documentation for usage details).
+
+These changes mean that we can build on top of this package to build framework specific iconsets such as `f-vue-icons` which use this API to pull in the icons and convert them into SFCs that can be fully tree-shaken as part of a build.
+
+Also there are no more styles that come down as part of the `f-icons` package. The idea now is that the majority of icons exported are colour and size agnostic so that when pulled into a platform, they can be set to whatever values you like.
+
+This restructuring has taken massive inspiration from the [Feather SVG icon library](https://github.com/feathericons/feather), including their API and build methods which are run on top of our icon-set.
+
+### Changed
+- **Breaking** – Updating from `v1` of `f-icons` may not be trivial in all instances. It's recommended that you only do so if absolutely needed (as you will lose the styling that comes for free in `v1`). We recommend upgrading to `v2` as part of a migration to using `f-vue-icons` which has ben developed alongside this package. For platforms still using `v1`, that branch will still be supported should additional icons need to be added before upgrading to `v2` is practical.
+- Complete restructuring of how the icons are structured in the repo and exported (as detailed above).
+- Logo's updated to new JET branding (and names normalised)
+- Normalised star icons down to `star-filled` and `star-empty` (as additional colours can be implemented using SVG `fill`).
+
+
+v2.0.0-beta.11
+------------------------------
+*June 8, 2020*
+
+### Changed
+- Menulog logo updated to new JET theme.
+
+
+v2.0.0-beta.10
+------------------------------
+*February 5, 2020*
+
+### Added
+- Alcohol age and star filled orange icons.
+
+
+v2.0.0-beta.9
+------------------------------
+*February 12, 2020*
+
+### Added
+- Add prepare command and update tests.
+
+### Fixed
+- Fix lint errors.
+
+
+v2.0.0-beta.8
+------------------------------
+*February 5, 2020*
+
+### Added
+- Gift icon
+
+
+v2.0.0-beta.7
+------------------------------
+*February 5, 2020*
+
+### Added
+- Alcohol age & star filled yellow icons.
+
+### Changed
+- Merged latest master.
+
+
+v2.0.0-beta.6
+------------------------------
+*September 11, 2019*
+
+### Added
+- Profile icon
+
+
+v2.0.0-beta.5
+------------------------------
+*September 4, 2019*
+
+### Added
+- Svgo prefixIds property for icon optimisation
+- JE transparent logo and Menulog logo
+
+
+v2.0.0-beta.4
+------------------------------
+*August 29, 2019*
+
+### Fixed
+- SVG attributes were being lowercased when some of them are case sensitive. Updated the HTML minifier to respect casing.
+
+
+v2.0.0-beta.3
+------------------------------
+*August 28, 2019*
+
+### Removed
+- Removed `console.log` left in for testing.
+
+
+v2.0.0-beta.2
+------------------------------
+*August 28, 2019*
+
+### Added
+- Viewbox attribute added so that the standard viewbox size set on the SVG isn't lost in the API calls
+
+
+v2.0.0-beta.1
+------------------------------
+*August 22, 2019*
+
+### Changed
+- Complete restructuring of how the icons are structured in the repo and exported.
+  This is so that when the module is exported, icons can be included in a variety of different ways for client side or server side includes.  The main thing this will give us is that the icons can then be exposed for use in Vue/React projects more effectively via a helper module.
+
+  This restructuring has taken massive inspiration from the [Feather SVG icon library](https://github.com/feathericons/feather), including their API and build methods which are run on top of our icon-set.
+
+
 v1.34.0
 ------------------------------
 *June 06, 2020*
