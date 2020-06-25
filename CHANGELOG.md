@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.35.0
+------------------------------
+*June 25, 2020*
+
+### Changed
+- All review stars in Brand Orange
+
+
 v1.34.0
 ------------------------------
 *June 06, 2020*
