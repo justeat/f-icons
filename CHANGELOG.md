@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.1
+------------------------------
+*June 25, 2020*
+
+### Changed
+- Small fix for the default new JE logo, as baseline of the `U` was incorrect.
+
+
 v2.0.0
 ------------------------------
 *June 19, 2020*
