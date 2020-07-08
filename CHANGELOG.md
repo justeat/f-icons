@@ -4,6 +4,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.1.0
+------------------------------
+*July 8, 2020*
+
+### Changed
+- Moved `classname` dependency into `devDependencies`.
+- Removed watch flag from test npm script.
+
+### Removed
+- `core-js` dependency and polyfill.
+
+
 v2.0.1
 ------------------------------
 *June 25, 2020*
