@@ -1,7 +1,7 @@
 {
   "name": "@justeat/f-icons",
   "description": "Common icons for use in Fozzie projects.",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "main": "dist/f-icons.js",
   "unpkg": "dist/f-icons.min.js",
   "files": [
@@ -29,10 +29,6 @@
     ],
     "testURL": "http://localhost/"
   },
-  "dependencies": {
-    "classnames": "2.2.6",
-    "core-js": "3.6.5"
-  },
   "devDependencies": {
     "@justeat/browserslist-config-fozzie": "1.1.1",
     "@justeat/eslint-config-fozzie": "3.4.1",
@@ -42,6 +38,7 @@
     "babel-preset-stage-2": "6.24.1",
     "cheerio": "1.0.0-rc.2",
     "concurrently": "5.2.0",
+    "classnames": "2.2.6",
     "danger": "10.2.0",
     "eslint": "7.2.0",
     "eslint-plugin-import": "2.21.2",
@@ -63,7 +60,7 @@
     "all": "npm-run-all --sequential build lint test:coverage",
     "build": "./bin/build.sh",
     "lint": "eslint .",
-    "test": "jest --watch",
+    "test": "jest",
     "test:coverage": "jest --coverage",
     "precommit": "lint-staged"
   },
