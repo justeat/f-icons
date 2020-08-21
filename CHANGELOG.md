@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v1.35.1
+------------------------------
+*August 21, 2020*
+
+### Changed
+- `f-utils` package updated to latest version.
+
+
 v1.35.0
 ------------------------------
 *June 25, 2020*
