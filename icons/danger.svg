@@ -5,11 +5,11 @@
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-34.000000, -18.000000)">
             <g transform="translate(32.000000, 16.000000)">
-                <polygon id="bounding-box" opacity="0" points="0 28 28 28 28 0 0 0"></polygon>
-                <mask id="mask-2" fill="white">
+                <polygon opacity="0" points="0 28 28 28 28 0 0 0"></polygon>
+                <mask fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Color" fill="#125FCA" xlink:href="#path-1"></use>
+                <use fill="#125FCA" xlink:href="#path-1"></use>
             </g>
         </g>
     </g>
