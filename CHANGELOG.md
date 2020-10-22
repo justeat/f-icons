@@ -3,6 +3,21 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+v2.4.0
+------------------------------
+*October 22, 2020*
+
+### Changed
+- Ran updated SVGs through SVGOMG again with the clean ids option turned off.
+- Renamed plus icons so that the sizes are consistent with the minus icon.
+
+### Fixed
+- Manually removing redundant inline style attributes which were causing W3C validation errors.
+- Duplicate ids which were tidied up by SVGOMG.
+- Local legend icons now showing rays.
+
+
 v2.3.0
 ------------------------------
 *October 12, 2020*
