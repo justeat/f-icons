@@ -1,6 +1,6 @@
-<svg viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-  <path
-    d="M5 4.41L9.29.12a.42.42 0 0 1 .59.6L5.29 5.28a.42.42 0 0 1-.58 0L.12.71a.42.42 0 0 1 .6-.59L5 4.42z"
-    fill="#333"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 8">
+  <defs>
+    <path id="chevron-down-a" d="M14.7 6.7a1 1 0 010 1.4L10.8 12l4 3.9a1 1 0 010 1.4 1 1 0 01-1.5 0l-4.6-4.6a1 1 0 010-1.4l4.6-4.6a1 1 0 011.4 0z"/>
+  </defs>
+  <use fill-rule="evenodd" transform="matrix(0 -1 -1 0 17.7 15.7)" xlink:href="#chevron-down-a"/>
 </svg>
