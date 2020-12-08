@@ -9,6 +9,7 @@ v3.0.0
 *December 8, 2020*
 
 ### Added
+- Arrow icon.
 - Celebrate bag bg icon.
 - Bag icon.
 - Bin icon.
