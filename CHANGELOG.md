@@ -3,6 +3,41 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
+
+v3.0.0
+------------------------------
+*December 8, 2020*
+
+### Added
+- Celebrate bag bg icon.
+- Bag icon.
+- Bin icon.
+- Chevron split icon.
+- Moped icon.
+
+## Changed
+- Updated alert icon.
+- Updated celebrate bag icon.
+- Updated basket icon.
+- Updated chevron icon.
+- Updated cross icon.
+- Updated info icon.
+- Updated minus icon.
+- Updated offer icon.
+- Updated plus icon.
+- Updated spicy icon.
+- Updated star icons.
+- Updated vegetarian icon.
+- Updated warning icon.
+- Renamed question mark icon.
+
+### Removed
+- Collection icons (use bag icons instead).
+- Delivery icon (use moped icon instead).
+- Legacy JE logo.
+- Plus thick icon.
+
+
 v2.12.0
 ------------------------------
 *December 1, 2020*
@@ -18,7 +53,6 @@ v2.11.0
 *November 25, 2020*
 
 ### Added
-
 - Geo-outline icon.
 - Geo-fill icon.
 
