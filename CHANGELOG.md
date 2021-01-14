@@ -8,8 +8,8 @@ v3.2.0
 ------------------------------
 *January 14, 2020*
 
-### Added
-- New arrow for navigation.
+### Changed
+- Arrow icon to match new designs.
 
 
 v3.1.0
