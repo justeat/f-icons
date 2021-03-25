@@ -4,6 +4,9 @@
 [![Build Status](https://travis-ci.org/justeat/f-icons.svg)](https://travis-ci.org/justeat/f-icons)
 [![Known Vulnerabilities](https://snyk.io/test/github/justeat/f-icons/badge.svg?targetFile=package.json)](https://snyk.io/test/github/justeat/f-icons?targetFile=package.json)
 
+## Contriduting
+
+If you want to add a new icon please check [our icon list](https://justeat.github.io/fozzie-components/@justeat/storybook/index.html?path=/story/components-atoms--icons) first to avoid diplications. Before adding svg file please run it through [svgomg](https://jakearchibald.github.io/svgomg/) with default setting applied plus make sure to **turn off** “Clean IDs” setting and **turn on** "Prefer viewBox to width/height" and "Prettify markup" settings. On top of that please prefix all the ids in the files with the icon name. For example `id="symbol"` for close-circle.svg should become `id="close-circle-symbol"`, as same ids in different files can conflict and cause visual issues as well as invalidate the markup.
 
 
 ## Usage
@@ -112,7 +115,6 @@ ficons.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' })
 ```
 
 See the [API Reference](#api-reference) for more information about the available properties and methods of the `ficons` object.
-
 
 ## API Reference
 
