@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v3.7.0
 ------------------------------
-*August 09, 2021*
+*August 12, 2021*
 
 ### Added
 - `bag-run-bg` icon added.
