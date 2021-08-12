@@ -4,6 +4,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 
+v3.7.0
+------------------------------
+*August 12, 2021*
+
+### Added
+- `bag-run-bg` icon added.
+- `bag-sad-bg` icon added.
+
+
 v3.6.0
 ------------------------------
 *June 02, 2021*
