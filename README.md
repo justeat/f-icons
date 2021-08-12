@@ -6,7 +6,7 @@
 
 ## Contributing
 
-If you want to add a new icon please check [our icon list](https://justeat.github.io/fozzie-components/@justeat/storybook/index.html?path=/story/components-atoms--icons) first to avoid diplications. Before adding svg file please run it through [svgomg](https://jakearchibald.github.io/svgomg/) with default setting applied plus make sure to **turn off** “Clean IDs” setting and **turn on** "Prefer viewBox to width/height" and "Prettify markup" settings. On top of that please prefix all the ids in the files with the icon name. For example `id="symbol"` for close-circle.svg should become `id="close-circle-symbol"`, as same ids in different files can conflict and cause visual issues as well as invalidate the markup.
+If you want to add a new icon please check [our icon list](https://justeat.github.io/fozzie-components/@justeat/storybook/index.html?path=/story/components-atoms--icons) first to avoid duplications. Before adding svg file please run it through [svgomg](https://jakearchibald.github.io/svgomg/) with default setting applied plus make sure to **turn off** “Clean IDs” setting and **turn on** "Prefer viewBox to width/height" and "Prettify markup" settings. On top of that please prefix all the ids in the files with the icon name. For example `id="symbol"` for close-circle.svg should become `id="close-circle-symbol"`, as same ids in different files can conflict and cause visual issues as well as invalidate the markup.
 
 
 ## Usage
