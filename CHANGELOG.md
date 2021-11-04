@@ -4,6 +4,30 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 
+v4.0.0
+------------------------------
+*November 4, 2021*
+
+### Changed
+- Old `bag-sad-bg` icon has been renamed to `bag-sorry-bg`.
+  - If you were using the old `bag-sad-bg` icon, please make sure you're using the updated name.
+
+### Added
+- `bag-sad-bg` icon (new icon, old name).
+- `bag-binoculars-bg` icon.
+- `bag-cry-bg` icon.
+- `bag-heart-1-bg` icon.
+- `bag-heart-2-bg` icon.
+- `bag-help-bg` icon.
+- `bag-listen-bg` icon.
+- `bag-magic-bg` icon.
+- `bag-money-bg` icon.
+- `bag-surf-bg` icon.
+- `bag-xmas-decorate-bg` icon.
+- `bag-xmas-santa-bg` icon.
+- `bag-xmas-sleigh-bg` icon.
+
+
 v3.9.0
 ------------------------------
 *September 20, 2021*
