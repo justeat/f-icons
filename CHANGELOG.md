@@ -4,6 +4,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 
+v4.1.0
+------------------------------
+*November 8, 2021*
+
+### Changed
+- Updated icons to make viewbox consistent across all bags.
+  - `bag-binoculars-bg`
+  - `bag-celebrate`
+  - `bag-celebrate-bg`
+  - `bag-run-bg`
+
+
 v4.0.0
 ------------------------------
 *November 4, 2021*
