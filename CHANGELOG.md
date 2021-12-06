@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v4.3.0
 ------------------------------
-*November 29, 2021*
+*December 06, 2021*
 
 ### Added
 - `offer` icon (new icon, old name).
