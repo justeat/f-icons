@@ -3,12 +3,22 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
+
+v4.4.0
+------------------------------
+*December 7, 2021*
+
+### Added
+- Jet logo icons.
+
+
 v4.3.3
 ------------------------------
 *December 07, 2021*
 
 ### Changed
 - `legend` icon - trimmed whitespace
+
 
 v4.3.2
 ------------------------------
@@ -17,6 +27,7 @@ v4.3.2
 ### Changed
 - `offer` icon - trimmed even more whitespace
 
+
 v4.3.1
 ------------------------------
 *December 06, 2021*
@@ -24,12 +35,14 @@ v4.3.1
 ### Changed
 - `offer` icon - trimmed whitespace
 
+
 v4.3.0
 ------------------------------
 *December 06, 2021*
 
 ### Added
 - `offer` icon (new icon, old name).
+
 
 v4.2.0
 ------------------------------
