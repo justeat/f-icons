@@ -3,6 +3,12 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
+v4.8.0
+------------------------------
+*February 17 2022*
+
+### Added
+- new small info icon
 
 v4.7.0
 ------------------------------
