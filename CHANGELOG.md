@@ -8,7 +8,8 @@ v4.8.0
 *February 17 2022*
 
 ### Added
-- new small info icon
+- updated info icon
+- removed fill from success icon
 
 v4.7.0
 ------------------------------
