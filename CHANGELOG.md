@@ -3,6 +3,16 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
+v4.9.0
+------------------------------
+*April 25 2022*
+
+### Changed
+- `payment-visa.svg` icon updated (latest brand guidelines)
+
+### Added
+- `payment-visa-transparent.svg` icon
+
 v4.8.1
 ------------------------------
 *March 01 2022*
