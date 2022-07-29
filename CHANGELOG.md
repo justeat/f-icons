@@ -8,7 +8,7 @@ v4.11.0
 *July 28 2022*
 
 ### Added
-- `corporate-office.svg` icon.
+- `corporate-office-small.svg` icon.
 
 v4.10.0
 ------------------------------
