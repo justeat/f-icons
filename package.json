@@ -1,7 +1,7 @@
 {
   "name": "@justeat/f-icons",
   "description": "Common icons for use in Fozzie projects.",
-  "version": "4.12.0",
+  "version": "4.13.0",
   "main": "dist/f-icons.js",
   "unpkg": "dist/f-icons.min.js",
   "files": [
